@@ -1,0 +1,29 @@
+header{
+    background-color: var(--color-primary);     /*Muda a cor de fundo do cabeçario*/
+    height: 60px;                               /*Muda o tamanho do cabeçario para 60px*/
+    display: flex;                              /*Não permite que nenhum item se sobreescreva*/
+    align-items: center;                        /*Alinha os itens verticalmente ao centro*/
+}
+
+.dsmoovie-nav-content{                          /*Muda a variavel dsmoovie-nav-content no /navbar/index.tsx MEXE NO /joao-merces*/
+    display: flex;                              /*Deixa as letras 'flex' chapadas entao uma não fica dentro da outra*/
+    justify-content: space-between;             /*Deixa um elemento em cada ponta*/
+    align-items: center;                        /*Alinha os itens verticalmente ao centro*/
+    color: #fff;                              /*Muda os textos do cabeçario para branco*/
+}
+
+.dsmoovie-nav-content h1{                       /*Muda o h1 da NavBar MEXE APENAS NO DSMOVIE QUE É O H1*/
+    margin: 0px;                                /*Muda a margem para 0px*/
+    font-weight: 700;                           /*Muda a fonte para negrito*/
+    font-size: 24px;                            /*Muda o tamanho da fonte para 24px*/
+}
+
+.dsmovie-contact-conteiner{                     /*Muda a variavel dsmoovie-nav-content no /navbar/index.tsx MEXE NA FOTO DO GITHUB*/
+    display: flex;                              /*Deixa as letras 'flex' chapadas entao uma não fica dentro da outra*/
+    align-items: center;                        /*Alinha os itens verticalmente ao centro*/
+}
+
+.dsmovie-contact-link{                          /*Muda a variavel dsmovie-contact-link MEXE SO NO /JOAO-MERCES*/
+    margin: 0 0 0 10px;                         /*Determina a margem do topo para 0, da direita para 0 de baixo para 0 e da esquerda para 0px*/
+    font-size: 12px;                            /*Determima o tamanho da fonte para 12px*/
+}
